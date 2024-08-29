@@ -57,7 +57,7 @@ if st.button("Diagnose"):
             if float(sorted_data[0][1]) < 0.5 :
                 st.write(f"### The patient is healthy")
             else :
-                st.write(f"### ML Psy advises you to explore a diagnosis of **{sorted_data[0][0]}** {sorted_data[0][1]} and **{sorted_data[1][0]}**")
+                st.write(f"### ML Psy advises you to explore a diagnosis of **{sorted_data[0][0]}**")
 
 
 
