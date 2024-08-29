@@ -13,10 +13,10 @@ name_to_value = {
     "John" : 0,
     "Bob": 1,
     "James": 2,
-    "Alice": 3,
+    "Martin": 3,
     "Emma": 4,
-    "Aline" : 5,
-    "Marin" : 17
+    "Héloise" : 5,
+    "Alice" : 17
 }
 
 # Champs de saisie pour l'utilisateur
@@ -57,7 +57,7 @@ if st.button("Diagnose"):
             if float(sorted_data[0][1]) < 0.5 :
                 st.write(f"### The patient is healthy")
             else :
-                st.write(f"### ML Psy advises you to explore a diagnosis of **{sorted_data[0][0]}** {sorted_data[0][1]} and **{sorted_data[1][0]}**")
+                st.write(f"### ML Psy advises you to explore a diagnosis of **{sorted_data[0][0]}**")
 
 
 
