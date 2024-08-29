@@ -13,10 +13,10 @@ name_to_value = {
     "John" : 0,
     "Bob": 1,
     "James": 2,
-    "Alice": 3,
+    "Martin": 3,
     "Emma": 4,
-    "Aline" : 5,
-    "Marin" : 17
+    "Héloise" : 5,
+    "Alice" : 17
 }
 
 # Champs de saisie pour l'utilisateur
