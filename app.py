@@ -24,7 +24,7 @@ index = name_to_value[st.selectbox("Choose a patient:", list(name_to_value))] #s
 #threshold = st.number_input("Entrez le seuil (threshold):", min_value=0.0, step=0.1)
 
 # URL de l'API (à modifier selon votre API)
-api_url = "http://127.0.0.1:8000/predict"
+api_url = "https://ml-psy-api-annia-final-b6cjkk5ioq-ew.a.run.app/predict"
 
 # Bouton pour soumettre les paramètres
 if st.button("Diagnose"):
